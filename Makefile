@@ -1,6 +1,6 @@
 CPPUTEST_HOME = /usr/local
 CPPFLAGS += -I$(CPPUTEST_HOME)/include
-LD_LIBRARIES = -L$(CPPUTEST_HOME)/lib -lCppUTest -lCppUTestExt
+LD_LIBRARIES = -L$(CPPUTEST_HOME)/lib -lCppUTest
 OBJS = src/test_runner.o src/factorial_test.o
 OPTIONS = -std=c++11
 CC = clang++
